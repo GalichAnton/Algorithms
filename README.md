@@ -25,7 +25,7 @@
 <details>
 <summary>Medium</summary>
 
-- SumOf3 - [LeetCode](https://leetcode.com/problems/3sum/description/) - [Solution]()
+- SumOf3 - [LeetCode](https://leetcode.com/problems/3sum/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/sum_of_3.js)
 
 </details>
 
