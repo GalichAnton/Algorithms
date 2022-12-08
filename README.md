@@ -24,6 +24,10 @@
 - Remove duplicates - [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Remove_duplicates.js)
 - Single number - [LeetCode](https://leetcode.com/problems/single-number/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Single_number.js)
 - Two sum - [LeetCode](https://leetcode.com/problems/two-sum/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Two_sum.js)
+- Max water container - [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Max_water_container.js)
+- Intersection of two arrays - [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Intersection_of_array.js)
+- First uniq char - [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/First_uniq_char.js)
+- Best time to buy - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Best_time_buy_stock.js)
 
 
 </details>
@@ -36,6 +40,19 @@
 - SumOf3 - [LeetCode](https://leetcode.com/problems/3sum/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/sum_of_3.js)
 - Max distance to closest person - [LeetCode](https://leetcode.com/problems/maximize-distance-to-closest-person/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Max_distance.js)
 - Search in rotated array - [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Search_rotated_sorted_array.js)
+- Brick wall - [LeetCode](https://leetcode.com/problems/brick-wall/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Brick_wall.js)
+- Number of islands- [LeetCode](https://leetcode.com/problems/number-of-islands/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Number_of_islands.js)
+
+</details>
+
+
+---
+
+<details>
+<summary>Hard</summary>
+
+- Trapping rain water - [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/hard/Trapping_rain_water.js)
+
 
 </details>
 
