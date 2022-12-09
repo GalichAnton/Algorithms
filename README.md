@@ -28,6 +28,9 @@
 - Intersection of two arrays - [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Intersection_of_array.js)
 - First uniq char - [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/First_uniq_char.js)
 - Best time to buy - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Best_time_buy_stock.js)
+- Longest common prefix - [LeetCode](https://leetcode.com/problems/longest-common-prefix/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Longest_common_prefix.js)
+- Roman to integer - [LeetCode](https://leetcode.com/problems/roman-to-integer/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Roman_to_integer.js)
+- Valid bracket - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/easy/Valid_parenthes.js)
 
 
 </details>
@@ -41,7 +44,9 @@
 - Max distance to closest person - [LeetCode](https://leetcode.com/problems/maximize-distance-to-closest-person/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Max_distance.js)
 - Search in rotated array - [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Search_rotated_sorted_array.js)
 - Brick wall - [LeetCode](https://leetcode.com/problems/brick-wall/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Brick_wall.js)
-- Number of islands- [LeetCode](https://leetcode.com/problems/number-of-islands/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Number_of_islands.js)
+- Number of islands - [LeetCode](https://leetcode.com/problems/number-of-islands/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Number_of_islands.js)
+- Best time to buy 2 - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Best_time_to_buy2.js)
+- Merge intervals - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/medium/Merge_intervals.js)
 
 </details>
 
@@ -52,6 +57,7 @@
 <summary>Hard</summary>
 
 - Trapping rain water - [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/hard/Trapping_rain_water.js)
+- Poor pigs - [LeetCode](https://leetcode.com/problems/poor-pigs/description/) - [Solution](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/hard/Poor_pigs.js)
 
 
 </details>
