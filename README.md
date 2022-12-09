@@ -5,6 +5,10 @@
 
 ### Directory Typical - Typical problems on algorithms
 
+- [Array problems](https://github.com/GalichAnton/Algoritms/blob/master/Typical/Arrays)
+- [Interview JS tasks](https://github.com/GalichAnton/Algoritms/blob/master/Typical/Interview_js)
+- [Interview TS tasks](https://github.com/GalichAnton/Algoritms/blob/master/Typical/Interview_ts)
+
 ---
 
 ### Directory Yandex - Yandex algorithm training intensive
