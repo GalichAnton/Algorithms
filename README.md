@@ -5,9 +5,9 @@
 
 ### Directory Typical - Typical problems on algorithms
 
-- [Array problems](https://github.com/GalichAnton/Algoritms/blob/master/Typical/Arrays)
-- [Interview JS tasks](https://github.com/GalichAnton/Algoritms/blob/master/Typical/Interview_js)
-- [Interview TS tasks](https://github.com/GalichAnton/Algoritms/blob/master/Typical/Interview_ts)
+- [Array problems](https://github.com/GalichAnton/Algorithms/tree/master/Typical/Arrays)
+- [Interview JS tasks](https://github.com/GalichAnton/Algorithms/tree/master/Typical/Interview_js)
+- [Interview TS tasks](https://github.com/GalichAnton/Algorithms/tree/master/Typical/Interview_ts)
 
 ---
 
