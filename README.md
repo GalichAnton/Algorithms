@@ -17,6 +17,9 @@
 
 ### Directory LeetCode - Tasks from LeetCode depending on the level of difficulty
 
+- [LeetCode's Interview Crash Course
+  Data Structures and Algorithms](https://leetcode.com/explore/featured/card/leetcodes-interview-crash-course-data-structures-and-algorithms/) - [Tasks](https://github.com/GalichAnton/Algorithms/tree/master/LeetCode/LeetCode_course_data_structures_alhoritms/)
+
 <details>
 <summary>Easy</summary>
 
