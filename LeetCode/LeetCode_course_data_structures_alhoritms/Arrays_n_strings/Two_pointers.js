@@ -114,9 +114,7 @@ const reverseString = function(s) {
   let right = s.length - 1
 
   while(left < right) {
-    let tmp = s[left]
-    s[left] = s[right]
-    s[right] = tmp
+    [s[left], s[right]] = [s[right], s[left]]
     left++
     right--
   }
