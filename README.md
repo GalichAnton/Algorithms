@@ -21,10 +21,9 @@
 <details>
 <summary>
 LeetCode's Interview Crash Course Data Structures and Algorithms 
-
-[Link](https://leetcode.com/explore/featured/card/leetcodes-interview-crash-course-data-structures-and-algorithms/) 
-
 </summary>
+
+[Source](https://leetcode.com/explore/featured/card/leetcodes-interview-crash-course-data-structures-and-algorithms/)
 
 - <details>
   <summary>Arrays and strings</summary>
