@@ -28,30 +28,30 @@ LeetCode's Interview Course Data Structures and Algorithms
 - <details>
   <summary>Arrays and strings</summary>
 
-  - [Prefix sum](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Prefix_sum.js)
-  - [Sliding windows](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Sliding_windows.js)
-  - [Two pointers](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Two_pointers.js)
+  - [Prefix sum](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Arrays_n_strings/Prefix_sum.js)
+  - [Sliding windows](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Arrays_n_strings/Sliding_windows.js)
+  - [Two pointers](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Arrays_n_strings/Two_pointers.js)
   </details>
 
 - <details>
   <summary>Hashing</summary>
 
-  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Checking_for_existance.js)
-  - [Counting](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Counting.js)
-  - [More examples](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/More_examples.js)
+  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Hashing/Checking_for_existance.js)
+  - [Counting](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Hashing/Counting.js)
+  - [More examples](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Hashing/More_examples.js)
   </details>
 
 - <details>
   <summary>Linked lists</summary>
 
-  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Fast_n_slow_pointers.js)
-  - [Counting](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Reverse.js)
+  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Linked_lists/Fast_n_slow_pointers.js)
+  - [Counting](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Linked_lists/Reverse.js)
   </details>
 
 - <details>
   <summary>Stacks and queues</summary>
 
-  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/String_problems.js)
+  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Stacks_n_queues/String_problems.js)
   </details>
 
 </details>
