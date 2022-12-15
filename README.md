@@ -20,7 +20,7 @@
 
 <details>
 <summary>
-LeetCode's Interview Crash Course Data Structures and Algorithms 
+LeetCode's Interview Course Data Structures and Algorithms 
 </summary>
 
 [Source](https://leetcode.com/explore/featured/card/leetcodes-interview-crash-course-data-structures-and-algorithms/)
