@@ -17,8 +17,46 @@
 
 ### Directory LeetCode - Tasks from LeetCode depending on the level of difficulty
 
-- [LeetCode's Interview Crash Course
-  Data Structures and Algorithms](https://leetcode.com/explore/featured/card/leetcodes-interview-crash-course-data-structures-and-algorithms/) - [Tasks](https://github.com/GalichAnton/Algorithms/tree/master/LeetCode/LeetCode_course_data_structures_alhoritms/)
+
+<details>
+<summary>
+LeetCode's Interview Crash Course Data Structures and Algorithms
+
+[Course](https://leetcode.com/explore/featured/card/leetcodes-interview-crash-course-data-structures-and-algorithms/) 
+</summary>
+
+- <details>
+  <summary>Arrays and strings</summary>
+
+  - [Prefix sum](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Prefix_sum.js)
+  - [Sliding windows](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Sliding_windows.js)
+  - [Two pointers](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Two_pointers.js)
+  </details>
+
+- <details>
+  <summary>Hashing</summary>
+
+  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Checking_for_existance.js)
+  - [Counting](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Counting.js)
+  - [More examples](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/More_examples.js)
+  </details>
+
+- <details>
+  <summary>Linked lists</summary>
+
+  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Fast_n_slow_pointers.js)
+  - [Counting](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Reverse.js)
+  </details>
+
+- <details>
+  <summary>Stacks and queues</summary>
+
+  - [Checking for existance](https://github.com/GalichAnton/Algoritms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/String_problems.js)
+  </details>
+
+</details>
+
+---
 
 <details>
 <summary>Easy</summary>
