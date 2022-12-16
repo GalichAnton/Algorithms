@@ -84,6 +84,7 @@ LeetCode's Interview Course Data Structures and Algorithms
 - Longest common prefix - [LeetCode](https://leetcode.com/problems/longest-common-prefix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Longest_common_prefix.js)
 - Roman to integer - [LeetCode](https://leetcode.com/problems/roman-to-integer/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Roman_to_integer.js)
 - Valid bracket - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Valid_parenthes.js)
+- Implement queue by stacks - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Implement_queue_by_stacks.js)
 
 
 </details>
