@@ -59,7 +59,7 @@ LeetCode's Interview Course Data Structures and Algorithms
 - <details>
   <summary>Tree and graphs</summary>
 
-  - [Binary trees DFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_Tree_DFS.js)
+  - [Binary trees DFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_tree_DFS.js)
   </details>
 
 </details>
