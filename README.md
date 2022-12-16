@@ -51,7 +51,15 @@ LeetCode's Interview Course Data Structures and Algorithms
 - <details>
   <summary>Stacks and queues</summary>
 
-  - [Checking for existance](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Stacks_n_queues/String_problems.js)
+  - [String problems](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Stacks_n_queues/String_problems.js)
+  - [Queues](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Stacks_n_queues/Queues.js)
+  - [Monotonic](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Stacks_n_queues/Monotonic.js)
+  </details>
+
+- <details>
+  <summary>Tree and graphs</summary>
+
+  - [Binary trees DFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_Tree_DFS.js)
   </details>
 
 </details>
