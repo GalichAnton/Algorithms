@@ -73,7 +73,6 @@ LeetCode's Interview Course Data Structures and Algorithms
 
 </details>
 
----
 
 <details>
 <summary>Easy</summary>
@@ -98,7 +97,6 @@ LeetCode's Interview Course Data Structures and Algorithms
 
 </details>
 
----
 
 <details>
 <summary>Medium</summary>
@@ -114,8 +112,6 @@ LeetCode's Interview Course Data Structures and Algorithms
 </details>
 
 
----
-
 <details>
 <summary>Hard</summary>
 
@@ -124,9 +120,6 @@ LeetCode's Interview Course Data Structures and Algorithms
 
 
 </details>
-
----
-
 
 <details>
 <summary>Code templates for most popular algorithms</summary>
@@ -142,5 +135,7 @@ LeetCode's Interview Course Data Structures and Algorithms
 
 
 </details>
+
+---
 
 ### (c) 2022 by [Anton Galich](https://github.com/GalichAnton)   
