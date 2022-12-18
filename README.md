@@ -60,6 +60,15 @@ LeetCode's Interview Course Data Structures and Algorithms
   <summary>Tree and graphs</summary>
 
   - [Binary trees DFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_tree_DFS.js)
+  - [Binary trees BFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_tree_BFS.js)
+  - [Binary search tree](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_search_tree.js)
+  </details>
+
+- <details>
+  <summary>Binary_search</summary>
+
+  - [Binary search](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Binary_search/Binary_search.js)
+  - [Binary trees BFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Binary_search/Solution_spaces.js)
   </details>
 
 </details>
@@ -118,5 +127,20 @@ LeetCode's Interview Course Data Structures and Algorithms
 
 ---
 
+
+<details>
+<summary>Code templates for most popular algorithms</summary>
+
+- [Two pointers](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Two_pointers.js)
+- [Binary search](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Binary_search.js)
+- [Binary tree](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Binary_tree.js)
+- [Linked list](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Linked_list.js)
+- [Monotoic stack](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Monotoic_stack.js)
+- [Prefix sum](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Prefix_sum.js)
+- [Sliding window](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Sliding_window.js)
+- [Subarrays](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Subarrays.js)
+
+
+</details>
 
 ### (c) 2022 by [Anton Galich](https://github.com/GalichAnton)   
