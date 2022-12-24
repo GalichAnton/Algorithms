@@ -93,6 +93,12 @@ LeetCode's Interview Course Data Structures and Algorithms
 - Roman to integer - [LeetCode](https://leetcode.com/problems/roman-to-integer/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Roman_to_integer.js)
 - Valid bracket - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Valid_parenthes.js)
 - Implement queue by stacks - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Implement_queue_by_stacks.js)
+- Pascal triangle - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Pascal_triangle.js)
+- Remove in place - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Remove_in_place.js)
+- Replace elements with greater - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Replace_elements_with_greater.js)
+- Unique emails - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Unique_emails.js)
+- Valid anagrams - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Valid_anagrams.js)
+- isIsomorphic - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/isIsomorphic.js)
 
 
 </details>
