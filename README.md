@@ -99,6 +99,8 @@ LeetCode's Interview Course Data Structures and Algorithms
 - Unique emails - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Unique_emails.js)
 - Valid anagrams - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Valid_anagrams.js)
 - isIsomorphic - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/isIsomorphic.js)
+- Can place - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Can_place.js)
+- Majority element - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Majority_element.js)
 
 
 </details>

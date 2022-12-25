@@ -110,26 +110,24 @@ console.log(longestSubarray([10,1,2,4,7,2], 5))
 var nextGreaterElement = function(nums1, nums2) {
   const stack = []
   const map = {}
-
-  for(let i = 0; i < nums2.length; i++) {
-    while(stack.length && nums2[i] > stack[stack.length - 1]) {
-      map[stack.pop()] = nums2[i]
-    }
-    stack.push(nums2[i])
-  }
-
-  while(stack.length) {
-    map[stack.pop()] = -1
-  }
-
-  let res = []
+  const res = Array(nums1.length).fill(-1)
 
   for(let i = 0; i < nums1.length; i++) {
-    res[i] = map[nums1[i]]
+    map[nums1[i]] = i
   }
 
+  for(let i = 0; i < nums2.length; i++) {
+    let cur = nums2[i]
+    while(stack.length && cur > stack[stack.length - 1]) {
+      let val = stack.pop()
+      let index = map[val]
+      res[index] = cur
+    }
+    if(nums1.includes(cur)) {
+      stack.push(nums2[i])
+    }
+  }
   return res
-
 };
 
 console.log(nextGreaterElement([4,1,2],[1,3,4,2]))
