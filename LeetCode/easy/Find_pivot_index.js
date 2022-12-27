@@ -21,20 +21,19 @@ Right sum = nums[4] + nums[5] = 5 + 6 = 11
 */
 
 var pivotIndex = function(nums) {
-  let pivot = -1
+  let total = nums.reduce((acc, cur) => acc+= cur, 0)
   let leftSum = 0
-  let rightSum = 0
 
   for(let i = 0; i < nums.length; i++) {
-    leftSum = nums.slice(0, i).reduce((acc, cur) => acc+= cur, 0)
-    rightSum = nums.slice(i + 1, nums.length).reduce((acc, cur) => acc+= cur, 0)
+    let rightSum = total - leftSum - nums[i]
+
     if (leftSum === rightSum) {
-      pivot = i
-      return pivot
+      return i
     }
+    leftSum += nums[i]
   }
 
-  return pivot
+  return -1
 };
 
 console.log(pivotIndex([1,7,3,6,5,6]))

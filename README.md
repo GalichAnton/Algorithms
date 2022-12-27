@@ -101,6 +101,8 @@ LeetCode's Interview Course Data Structures and Algorithms
 - isIsomorphic - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/isIsomorphic.js)
 - Can place - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Can_place.js)
 - Majority element - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Majority_element.js)
+- Words pattern - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Words_pattern.js)
+- Find dissapeared numbers - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_dissapeared_numbers.js)
 
 
 </details>
