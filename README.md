@@ -118,6 +118,9 @@ LeetCode's Interview Course Data Structures and Algorithms
 - Number of islands - [LeetCode](https://leetcode.com/problems/number-of-islands/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Number_of_islands.js)
 - Best time to buy 2 - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Best_time_to_buy2.js)
 - Merge intervals - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Merge_intervals.js)
+- Encode decode - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Encode_decode.js)
+- Most frequent element - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Most_frequent_element.js)
+- Product of array expect self - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Product_of_array_expect_self.js)
 
 </details>
 
