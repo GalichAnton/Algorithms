@@ -9,28 +9,26 @@ Open brackets must be closed in the correct order.
 Every close bracket has a corresponding open bracket of the same type.
 */
 
-var isValid = function(s) {
-  const opened = "[{(";
-  const closed = "}])"
+var isValid = function (s) {
   const bracket = {
-    "]":'[',
-    '}':'{',
-    ')':'('
+    "]": '[',
+    '}': '{',
+    ')': '('
   }
   const stack = []
 
-  for(let i = 0; i < s.length; i++){
-    if(opened.includes(s[i])) {
-      stack.push(s[i])
-    } else if (closed.includes(s[i])) {
-      let last = stack.pop()
-      if (bracket[s[i]] !== last){
+  for (const c of s) {
+    if (c in bracket) {
+      if (stack.length && stack[stack.length - 1] === bracket[c]) {
+        stack.pop()
+      } else {
         return false
       }
+    } else {
+      stack.push(c)
     }
   }
   return stack.length === 0
+}
 
-};
-
-console.log(isValid("()[]{}"))
+console.log(isValid("()[{]{}"))
