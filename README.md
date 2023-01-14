@@ -77,41 +77,76 @@ LeetCode's Interview Course Data Structures and Algorithms
 <details>
 <summary>Easy</summary>
 
-- Find path in graph - [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_path_in_graph.js)
-- Find pivot index - [LeetCode](https://leetcode.com/problems/find-pivot-index/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_pivot_index.js)
-- Longest substring palindrome - [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Longest_palindrome.js)
-- Minimum absolute difference in bst - [LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Min_diff_bst.js)
-- Peak index of mountain array - [LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Peak_index_mounyain_array.js)
-- Remove duplicates - [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Remove_duplicates.js)
-- Single number - [LeetCode](https://leetcode.com/problems/single-number/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Single_number.js)
-- Two sum - [LeetCode](https://leetcode.com/problems/two-sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_sum.js)
-- Max water container - [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Max_water_container.js)
-- Intersection of two arrays - [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Intersection_of_array.js)
-- First uniq char - [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/First_uniq_char.js)
-- Best time to buy - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Best_time_buy_stock.js)
-- Longest common prefix - [LeetCode](https://leetcode.com/problems/longest-common-prefix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Longest_common_prefix.js)
-- Roman to integer - [LeetCode](https://leetcode.com/problems/roman-to-integer/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Roman_to_integer.js)
-- Valid bracket - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Valid_parenthes.js)
-- Implement queue by stacks - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Implement_queue_by_stacks.js)
-- Pascal triangle - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Pascal_triangle.js)
-- Remove in place - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Remove_in_place.js)
-- Replace elements with greater - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Replace_elements_with_greater.js)
-- Unique emails - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Unique_emails.js)
-- Valid anagrams - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Valid_anagrams.js)
-- isIsomorphic - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/isIsomorphic.js)
-- Can place - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Can_place.js)
-- Majority element - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Majority_element.js)
-- Words pattern - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Words_pattern.js)
-- Find dissapeared numbers - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_dissapeared_numbers.js)
-- Baseball game - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Baseball_game.js)
-- isPalindrome - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/isPalindrome.js)
-- Arranging сoins - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arranging_сoins.js)
-- Guess game - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Guess_game.js)
-- Invert binary tree - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Invert_binary_tree.js)
-- Merge two sorted lists - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Merge_two_sorted_lists.js)
-- Minstack - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Minstack.js)
-- Palindrome linked list - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Palindrome_linked_list.js)
+- <details>
+  <summary>Arrays and hashing</summary>
 
+  - Two sum - [LeetCode](https://leetcode.com/problems/two-sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Two_sum.js)
+  - Valid anagrams - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Arrays_n_hashing/easy/Valid_anagrams.js)
+  - Longest common prefix - [LeetCode](https://leetcode.com/problems/longest-common-prefix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Arrays_n_hashing/easy/Longest_common_prefix.js)
+  - Pascal triangle - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Pascal_triangle.js)
+  - Remove in place - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Remove_in_place.js)
+  - Replace elements with greater - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Replace_elements_with_greater.js)
+  - Unique emails - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Unique_emails.js)
+  - isIsomorphic - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/isIsomorphic.js)
+  - Can place - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Can_place.js)
+  - Majority element - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Majority_element.js)
+  - Find pivot index - [LeetCode](https://leetcode.com/problems/find-pivot-index/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Find_pivot_index.js)
+  - Words pattern - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Words_pattern.js)
+  - Find dissapeared numbers - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Find_dissapeared_numbers.js)
+  - First uniq char - [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/First_uniq_char.js)
+  - Intersection of two arrays - [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Intersection_of_array.js)
+  - Longest substring palindrome - [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Longest_palindrome.js)
+  - Max water container - [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Max_water_container.js)
+  - Remove duplicates - [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Remove_duplicates.js)
+  - Single number - [LeetCode](https://leetcode.com/problems/single-number/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Single_number.js)
+  - Roman to integer - [LeetCode](https://leetcode.com/problems/roman-to-integer/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Roman_to_integer.js)
+  </details>
+  
+- <details>
+  <summary>Two pointers</summary>
+
+  - isPalindrome - [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/isPalindrome.js)
+  </details>
+  
+- <details>
+  <summary>Sliding windows</summary>
+
+  - Best time to buy - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Best_time_buy_stock.js)
+  </details>
+  
+- <details>
+  <summary>Stack</summary>
+
+  - Valid bracket - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Valid_parenthes.js)
+  - Baseball game - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Baseball_game.js)
+  - Implement queue by stacks - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Implement_queue_by_stacks.js)
+  - Minstack - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Minstack.js)
+  </details>
+
+- <details>
+  <summary>Binary search</summary>
+
+  - Guess game - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Guess_game.js)
+  - Arranging сoins - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Arranging_сoins.js)
+  - Binary search - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Binary_search.js)
+  </details>
+  
+- <details>
+  <summary>Linked lists</summary>
+
+  - Merge two sorted lists - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Merge_two_sorted_lists.js)
+  - Palindrome linked list - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Palindrome_linked_list.js)
+  - Reverse linked list - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Reverse.js)
+  </details>
+  
+- <details>
+  <summary>Trees</summary>
+
+  - Invert binary tree - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Invert_binary_tree.js)
+  - Minimum absolute difference in bst - [LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Min_diff_bst.js)
+  </details>
+
+- Find path in graph - [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_path_in_graph.js)
 
 </details>
 
@@ -119,21 +154,60 @@ LeetCode's Interview Course Data Structures and Algorithms
 <details>
 <summary>Medium</summary>
 
-- SumOf3 - [LeetCode](https://leetcode.com/problems/3sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/sum_of_3.js)
-- Max distance to closest person - [LeetCode](https://leetcode.com/problems/maximize-distance-to-closest-person/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Max_distance.js)
-- Search in rotated array - [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Search_rotated_sorted_array.js)
-- Brick wall - [LeetCode](https://leetcode.com/problems/brick-wall/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Brick_wall.js)
-- Number of islands - [LeetCode](https://leetcode.com/problems/number-of-islands/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Number_of_islands.js)
-- Best time to buy 2 - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Best_time_to_buy2.js)
-- Merge intervals - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Merge_intervals.js)
-- Encode decode - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Encode_decode.js)
-- Most frequent element - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Most_frequent_element.js)
-- Product of array expect self - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Product_of_array_expect_self.js)
-- Longest Consecutive Sequence - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Longest_Consecutive_Sequence.js)
-- Longest substring without repeating - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Longest_substring_without_repeating.js)
-- Evaluate Reverse Polish Notation- [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Evaluate_Reverse_Polish_Notation.js)
-- Longest Repeating Character Replacement - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Longest_Repeating_Character_Replacement.js)
-- Two sum sorted - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_sum_sorted.js)
+- <details>
+  <summary>Arrays and hashing</summary>
+
+  - Group anagrams - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Group_anagrams.js)
+  - Product of array expect self - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Product_of_array_expect_self.js)
+  - Longest Consecutive Sequence - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Longest_Consecutive_Sequence.js)
+  - Encode decode - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Encode_decode.js)
+  - Longest substring without repeating - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Longest_substring_without_repeating.js)
+  - Brick wall - [LeetCode](https://leetcode.com/problems/brick-wall/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Brick_wall.js)
+  - Best time to buy 2 - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Best_time_to_buy2.js)
+  - Number of islands - [LeetCode](https://leetcode.com/problems/number-of-islands/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Number_of_islands.js)
+  - Merge intervals - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Merge_intervals.js)
+  - Most frequent element - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Most_frequent_element.js)
+  - Max distance to closest person - [LeetCode](https://leetcode.com/problems/maximize-distance-to-closest-person/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Max_distance.js)
+
+  </details>
+
+- <details>
+  <summary>Two pointers</summary>
+
+  - Two sum sorted - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_pointers/Two_sum_sorted.js)
+  - SumOf3 - [LeetCode](https://leetcode.com/problems/3sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_pointers/sum_of_3.js)
+  </details>
+
+- <details>
+  <summary>Sliding windows</summary>
+
+  - Longest Repeating Character Replacement - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Longest_Repeating_Character_Replacement.js)
+  </details>
+
+- <details>
+  <summary>Stack</summary>
+
+  - Evaluate Reverse Polish Notation- [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Stack/Evaluate_Reverse_Polish_Notation.js)
+  </details>
+
+- <details>
+  <summary>Binary search</summary>
+
+  - Search in rotated array - [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Search_rotated_sorted_array.js)
+  </details>
+
+- <details>
+  <summary>Linked lists</summary>
+
+  </details>
+
+- <details>
+  <summary>Trees</summary>
+
+ 
+  </details>
+
+
 
 </details>
 
