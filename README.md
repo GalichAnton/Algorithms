@@ -144,6 +144,8 @@ LeetCode's Interview Course Data Structures and Algorithms
 
   - Invert binary tree - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Invert_binary_tree.js)
   - Minimum absolute difference in bst - [LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Min_diff_bst.js)
+  - Diameter of Binary Tree - [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Diameter_of_Binary_Tree.js)
+  - Maximum Depth of Binary Tree - [LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Maximum_Depth_o_Binary_Tree.js)
   </details>
 
 - Find path in graph - [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_path_in_graph.js)
@@ -203,6 +205,8 @@ LeetCode's Interview Course Data Structures and Algorithms
 
 - <details>
   <summary>Trees</summary>
+
+  
 
  
   </details>
