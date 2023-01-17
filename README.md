@@ -170,6 +170,8 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Merge intervals - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Merge_intervals.js)
   - Most frequent element - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Most_frequent_element.js)
   - Max distance to closest person - [LeetCode](https://leetcode.com/problems/maximize-distance-to-closest-person/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Max_distance.js)
+  - Sort colors - [LeetCode](https://leetcode.com/problems/sort-colors/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Sort_colors.js)
+  - Encode and Decode TinyUR - [LeetCode](https://leetcode.com/problems/sort-colors/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Encode_and_Decode_TinyUR.js)
 
   </details>
 
