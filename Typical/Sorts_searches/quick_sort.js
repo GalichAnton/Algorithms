@@ -24,3 +24,44 @@ function quickSort(arr) {
 
 console.log(quickSort(arr));
 console.log(count);
+
+
+
+
+
+
+
+const quickSort2 = (arr) => {
+    if (arr.length <= 1) {
+       return arr[0]
+    }
+    let left = []
+    let right = []
+    let pivotIndex = Math.floor(arr.length / 2)
+    let pivot = arr[pivotIndex]
+
+    for(let i = 0; i < arr.length; i++) {
+        if(i !== pivotIndex) {
+            if(arr[i] > pivot) {
+                right.push(arr[i])
+            } else {
+                left.push(arr[i])
+            }
+        }
+    }
+
+    return [quickSort2(left), pivot, quickSort2(right)]
+
+}
+
+
+console.log(quickSort(arr));
+
+
+
+
+
+
+
+
+

@@ -112,6 +112,8 @@ LeetCode's Interview Course Data Structures and Algorithms
   <summary>Sliding windows</summary>
 
   - Best time to buy - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Best_time_buy_stock.js)
+  - Minimum Difference Between Highest And Lowest of K Scores - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Minimum_Difference_Between_Highest_And_Lowest_of_K_Scores.js)
+  - Reverse string - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Reverse_string.js)
   </details>
   
 - <details>
@@ -121,6 +123,7 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Baseball game - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Baseball_game.js)
   - Implement queue by stacks - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Implement_queue_by_stacks.js)
   - Minstack - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Minstack.js)
+  - Implement Stack using Queues - [LeetCode](https://leetcode.com/problems/implement-stack-using-queues/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Implement_Stack_using_Queues.js)
   </details>
 
 - <details>
@@ -129,6 +132,7 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Guess game - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Guess_game.js)
   - Arranging сoins - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Arranging_сoins.js)
   - Binary search - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Binary_search.js)
+  - Valid Perfect Square - [LeetCode](https://leetcode.com/problems/valid-perfect-square/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Valid_Perfect_Square.js)
   </details>
   
 - <details>
@@ -137,6 +141,7 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Merge two sorted lists - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Merge_two_sorted_lists.js)
   - Palindrome linked list - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Palindrome_linked_list.js)
   - Reverse linked list - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Reverse.js)
+  - Remove Linked List Elements - [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Remove_Linked_List_Elements.js)
   </details>
   
 - <details>
@@ -186,6 +191,7 @@ LeetCode's Interview Course Data Structures and Algorithms
   <summary>Sliding windows</summary>
 
   - Longest Repeating Character Replacement - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Longest_Repeating_Character_Replacement.js)
+  - Frequency of the Most Frequent Element - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Frequency_of_the_Most_Frequent_Element.js)
   </details>
 
 - <details>
