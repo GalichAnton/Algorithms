@@ -106,6 +106,11 @@ LeetCode's Interview Course Data Structures and Algorithms
   <summary>Two pointers</summary>
 
   - isPalindrome - [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/isPalindrome.js)
+  - Merge Sorted Array - [LeetCode](https://leetcode.com/problems/merge-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/Merge_Sorted_Array.js)
+  - Minimum Difference Between Highest And Lowest of K Scores - [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/Minimum_Difference_Between_Highest_And_Lowest_of_K_Scores.js)
+  - Reverse string - [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/Reverse_string.js)
+  - Move Zeroes - [LeetCode](https://leetcode.com/problems/move-zeroes/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/Move_Zeroes.js)
+  - Remove Duplicates from Sorted Array - [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/Remove_Duplicates_from_Sorted_Array.js)
   </details>
   
 - <details>
@@ -114,6 +119,7 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Best time to buy - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Best_time_buy_stock.js)
   - Minimum Difference Between Highest And Lowest of K Scores - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Minimum_Difference_Between_Highest_And_Lowest_of_K_Scores.js)
   - Reverse string - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Reverse_string.js)
+  
   </details>
   
 - <details>
@@ -151,6 +157,8 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Minimum absolute difference in bst - [LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Min_diff_bst.js)
   - Diameter of Binary Tree - [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Diameter_of_Binary_Tree.js)
   - Maximum Depth of Binary Tree - [LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Maximum_Depth_o_Binary_Tree.js)
+  - Balanced Binary Tree - [LeetCode](https://leetcode.com/problems/balanced-binary-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Balanced_Binary_Tree.js)
+  - Same Tree - [LeetCode](https://leetcode.com/problems/same-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Same_Tree.js)
   </details>
 
 - Find path in graph - [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_path_in_graph.js)
@@ -192,6 +200,8 @@ LeetCode's Interview Course Data Structures and Algorithms
 
   - Longest Repeating Character Replacement - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Longest_Repeating_Character_Replacement.js)
   - Frequency of the Most Frequent Element - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Frequency_of_the_Most_Frequent_Element.js)
+  - Minimum Number of Flips to Make the Binary String Alternating - [LeetCode](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating.js)
+  - Minimum Size Subarray Sum - [LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Minimum_Size_Subarray_Sum.js)
   </details>
 
 - <details>
