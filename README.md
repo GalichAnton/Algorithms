@@ -202,12 +202,14 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Frequency of the Most Frequent Element - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Frequency_of_the_Most_Frequent_Element.js)
   - Minimum Number of Flips to Make the Binary String Alternating - [LeetCode](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating.js)
   - Minimum Size Subarray Sum - [LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Minimum_Size_Subarray_Sum.js)
+  - Find K Closest Elements - [LeetCode](https://leetcode.com/problems/find-k-closest-elements/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Find_K_Closest_Elements.js)
   </details>
 
 - <details>
   <summary>Stack</summary>
 
-  - Evaluate Reverse Polish Notation- [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Stack/Evaluate_Reverse_Polish_Notation.js)
+  - Evaluate Reverse Polish Notation - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Stack/Evaluate_Reverse_Polish_Notation.js)
+  - Generate Parentheses - [LeetCode](https://leetcode.com/problems/generate-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Stack/Generate_Parentheses.js)
   </details>
 
 - <details>
