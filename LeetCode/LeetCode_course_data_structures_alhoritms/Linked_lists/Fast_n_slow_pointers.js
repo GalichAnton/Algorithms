@@ -14,11 +14,7 @@ const List = {
           next: {
             val: 6,
             next: {
-              val: 6,
-              next: {
-                val: 7,
-                next: null
-              }
+              val: 7,
             }
           }
         }
@@ -29,7 +25,7 @@ const List = {
 
 let getMiddle = head => {
   let slow = head;
-  let fast = head;
+  let fast = head.next;
 
 
   while (fast && fast.next) {

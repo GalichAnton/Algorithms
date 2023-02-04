@@ -159,6 +159,8 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Maximum Depth of Binary Tree - [LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Maximum_Depth_o_Binary_Tree.js)
   - Balanced Binary Tree - [LeetCode](https://leetcode.com/problems/balanced-binary-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Balanced_Binary_Tree.js)
   - Same Tree - [LeetCode](https://leetcode.com/problems/same-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Same_Tree.js)
+  - Subtree of Another Tree - [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Subtree_of_Another_Tree.js)
+  - Convert Sorted Array to Binary Search Tree - [LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Convert_Sorted_Array_to_Binary_Search_Tree.js)
   </details>
 
 - Find path in graph - [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_path_in_graph.js)
@@ -185,6 +187,7 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Max distance to closest person - [LeetCode](https://leetcode.com/problems/maximize-distance-to-closest-person/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Max_distance.js)
   - Sort colors - [LeetCode](https://leetcode.com/problems/sort-colors/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Sort_colors.js)
   - Encode and Decode TinyUR - [LeetCode](https://leetcode.com/problems/sort-colors/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Encode_and_Decode_TinyUR.js)
+  - Permutations - [LeetCode](https://leetcode.com/problems/permutations/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Permutations.js)
 
   </details>
 
@@ -216,11 +219,13 @@ LeetCode's Interview Course Data Structures and Algorithms
   <summary>Binary search</summary>
 
   - Search in rotated array - [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Search_rotated_sorted_array.js)
+  - Search a 2D Matrix - [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Search_a_2D_Matrix.js)
   </details>
 
 - <details>
   <summary>Linked lists</summary>
-
+  
+   - Reorder list - [LeetCode](https://leetcode.com/problems/reorder-list/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Linked_lists/Reorder_list.js)
   </details>
 
 - <details>

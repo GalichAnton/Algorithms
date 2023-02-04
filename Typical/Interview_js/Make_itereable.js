@@ -19,7 +19,7 @@ const obj1 = {
   age: 25,
   [Symbol.iterator]:function next() {
     for (let key in this) {
-      if(this[key]) {
+      if(this[key]) { 
         return {value: this[key], done: false}
       } else {
         return {value:undefined, done: true}

@@ -31,3 +31,47 @@ function throtle(func, delay) {
 
 // const throtledOnChange = throtle(onChange, 500);
 // input.addEventListener("keypress", throtledOnChange);
+
+
+
+
+
+
+
+
+const debounce = (cb, delay) => {
+  let timeout
+  return function (...args) {
+    clearTimeout(timeout)
+    timeout = setTimeout(()=>{
+      cb.apply(this, args)
+    }, delay)
+  }
+}
+
+
+const throttle = (cb, delay) => {
+  let isWait = false
+  return function (...args) {
+    if(isWait) return
+    cb.apply(this, args)
+    isWait = true
+    setTimeout(() => {
+      isWait = false
+    }, delay)
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

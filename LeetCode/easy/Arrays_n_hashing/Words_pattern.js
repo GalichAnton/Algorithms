@@ -30,3 +30,28 @@ var wordPattern = function(pattern, s) {
   return true
 };
 console.log(wordPattern("abca", "dog cat cat dog"))
+
+
+
+
+
+
+const compactStr = (str) => {
+  let count = 0
+  let res = ''
+  for(let i = 0; i < str.length; i++) {
+    if(str[i] === str[i+1]) {
+      count++
+    } else {
+      if(count)  {
+        res += str[i] + count
+        count = 0
+      } else {
+        res += str[i]
+      }
+    }
+  }
+  return res
+}
+
+console.log(compactStr('AAAAAABDDDDDDDDDCCC'))

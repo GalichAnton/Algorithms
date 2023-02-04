@@ -1,4 +1,4 @@
-const arr = [1,2,3,4,5,6,7,8,9,10];
+const arr = [1,2,3,4,5,7,8,9,10];
 let count = 0;
 
 function binarySearch(arr, item) {
@@ -42,36 +42,56 @@ function recursiveBinarySearch(arr, item, start, end) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 function binarySearch2(arr, target) {
-    let l = 0
-    let r = arr.length - 1
+    let l = 0, r = arr.length - 1
+
     while(l < r) {
-        let mid = Math.floor((l + r) / 2)
+        let mid = Math.floor((l + r)/2)
         if(target === arr[mid]) return mid
-        if(target > arr[mid]) {
-            l = mid + 1
-        } else {
-            r = mid - 1
-        }
+        if(target > arr[mid]) l = mid + 1
+        if(target < arr[mid]) r = mid - 1
     }
-    return -1
+
+    return l
 }
 
-console.log(binarySearch2(arr, 6));
+console.log(quickSort([-67,1,77,88,99,45,766]));
 
 
+function bubleSort(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        for(let j = 0; j < arr.length; j++){
+            if(arr[j] > arr[j + 1]) {
+                let tmp = arr[j]
+                arr[j] = arr[j+1]
+                arr[j+1]=tmp
+            }
+        }
+    }
+    return arr
+}
 
+function quickSort(arr) {
+    if(arr.length < 2) {
+        return arr
+    }
+    let l = [], r = []
+    let pivotIndex = Math.floor(arr.length/2)
+    let pivot = arr[pivotIndex]
+
+    for(let i = 0; i < arr.length; i++) {
+        let num = arr[i]
+        if(i !== pivotIndex) {
+            if(num > pivot) {
+                r.push(num)
+            } else {
+                l.push(num)
+            }
+        }
+
+    }
+    return [...quickSort(l), pivot, ...quickSort(r)]
+}
 
 
 
