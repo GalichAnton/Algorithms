@@ -96,10 +96,10 @@ LeetCode's Interview Course Data Structures and Algorithms
   - First uniq char - [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/First_uniq_char.js)
   - Intersection of two arrays - [LeetCode](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Intersection_of_array.js)
   - Longest substring palindrome - [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Longest_palindrome.js)
-  - Max water container - [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Max_water_container.js)
   - Remove duplicates - [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Remove_duplicates.js)
   - Single number - [LeetCode](https://leetcode.com/problems/single-number/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Single_number.js)
   - Roman to integer - [LeetCode](https://leetcode.com/problems/roman-to-integer/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Roman_to_integer.js)
+  - Flood Fill - [LeetCode](https://leetcode.com/problems/flood-fill/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Flood_Fill.js)
   </details>
   
 - <details>
@@ -188,6 +188,7 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Sort colors - [LeetCode](https://leetcode.com/problems/sort-colors/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Sort_colors.js)
   - Encode and Decode TinyUR - [LeetCode](https://leetcode.com/problems/sort-colors/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Encode_and_Decode_TinyUR.js)
   - Permutations - [LeetCode](https://leetcode.com/problems/permutations/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Permutations.js)
+  - Rotate array - [LeetCode](https://leetcode.com/problems/rotate-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Rotate_array.js)
 
   </details>
 
@@ -196,6 +197,7 @@ LeetCode's Interview Course Data Structures and Algorithms
 
   - Two sum sorted - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_pointers/Two_sum_sorted.js)
   - SumOf3 - [LeetCode](https://leetcode.com/problems/3sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_pointers/sum_of_3.js)
+  - Container With Most Water - [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_pointers/Container_With_Most_Water.js)
   </details>
 
 - <details>
@@ -220,22 +222,23 @@ LeetCode's Interview Course Data Structures and Algorithms
 
   - Search in rotated array - [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Search_rotated_sorted_array.js)
   - Search a 2D Matrix - [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Search_a_2D_Matrix.js)
+  -  Find Minimum in Rotated Sorted Array - [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Find_Minimum_in_Rotated_Sorted_Array.js)
   </details>
 
 - <details>
   <summary>Linked lists</summary>
   
    - Reorder list - [LeetCode](https://leetcode.com/problems/reorder-list/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Linked_lists/Reorder_list.js)
+   - Remove Nth Node From End of List - [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Linked_lists/Remove_Nth_Node_From_End_of_List.js)
   </details>
 
 - <details>
   <summary>Trees</summary>
 
-  
+  - Max Area of Island - [LeetCode](https://leetcode.com/problems/max-area-of-island/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Trees/Max_Area_of_Island.js)
 
  
   </details>
-
 
 
 </details>
@@ -244,11 +247,33 @@ LeetCode's Interview Course Data Structures and Algorithms
 <details>
 <summary>Hard</summary>
 
-- Trapping rain water - [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/hard/Trapping_rain_water.js)
-- Poor pigs - [LeetCode](https://leetcode.com/problems/poor-pigs/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/hard/Poor_pigs.js)
+- <details>
+  <summary>Arrays and hashing</summary>
+
+  - Trapping rain water - [LeetCode](https://leetcode.com/problems/trapping-rain-water/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/hard/Arrays_n_hashing/Trapping_rain_water.js)
+  - Poor pigs - [LeetCode](https://leetcode.com/problems/poor-pigs/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/hard/Arrays_n_hashing/Poor_pigs.js)
+
+  </details>
+
+- <details>
+  <summary>Two pointers</summary>
+
+  dsfsdf
+  </details>
+
+- <details>
+  <summary>Sliding Widow</summary>
+
+  - Minimum Window Substring - [LeetCode](https://leetcode.com/problems/minimum-window-substring/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/hard/Sliding_windows/Minimum_Window_Substring.js)
+
+ </details>
 
 
 </details>
+
+
+
+
 
 <details>
 <summary>Code templates for most popular algorithms</summary>

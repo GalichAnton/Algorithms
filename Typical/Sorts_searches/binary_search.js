@@ -76,7 +76,7 @@ function quickSort(arr) {
         return arr
     }
     let l = [], r = []
-    let pivotIndex = Math.floor(arr.length/2)
+    let pivotIndex = Math.floor(arr.length / 2)
     let pivot = arr[pivotIndex]
 
     for(let i = 0; i < arr.length; i++) {

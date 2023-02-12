@@ -10,24 +10,34 @@ const obj = {
 
 
 Object.prototype.handle = "f";
-for (let key in obj) {
-  console.log(key);
-}
+// for (let key of obj) {
+//   console.log(key);
+// }
 
-const obj1 = {
-  name: "Toha",
-  age: 25,
-  [Symbol.iterator]:function next() {
-    for (let key in this) {
-      if(this[key]) { 
-        return {value: this[key], done: false}
-      } else {
-        return {value:undefined, done: true}
+const user = {
+  a:1,
+  b:2,
+  c:3,
+  [Symbol.iterator](){
+    return {
+      keys : Object.keys(this),
+      current : 0,
+      next:function(){
+        if(this.current < this.keys.length){
+          let i = this.current;
+          this.current++;
+          return {
+            done : false,
+            value : this.keys[i],
+          };
+        } else {
+          return {done : true};
+        }
       }
     }
   }
-};
+}
 
-for (let key in obj1) {
+for (let key of user) {
   console.log(key);
 }

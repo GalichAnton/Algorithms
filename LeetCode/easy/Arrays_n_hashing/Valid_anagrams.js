@@ -28,9 +28,9 @@ var isAnagram = function(s, t) {
   return true
 };
 
-console.log(isAnagram('aacc', 'ccac'))
+//console.log(isAnagram('aacc', 'ccac'))
 
-const isAnagram = (word_1, word_2) => {
+const isAnagram2 = (word_1, word_2) => {
   if (word_1.length !== word_2.length) {
     return false;
   }
@@ -53,3 +53,5 @@ const isAnagram = (word_1, word_2) => {
 
   return counter.size === 0;
 };
+
+console.log(isAnagram2('aacc', 'ccac'))

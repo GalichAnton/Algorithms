@@ -39,3 +39,34 @@ const isBalanced = function(root) {
 
   return dfs(root)[0]
 };
+
+function TreeNode(val, left, right) {
+  this.val = (val===undefined ? 0 : val)
+  this.left = (left===undefined ? null : left)
+  this.right = (right===undefined ? null : right)
+}
+
+const tree = new TreeNode(2, new TreeNode(3), new TreeNode(4))
+
+const leafSum = function(root) {
+  const dfs = (root) => {
+    let sum = 0
+
+    if(!root) {
+      return 0
+    }
+
+    if(!root.left && !root.right) {
+       sum += root.val
+    }
+
+    sum += dfs(root.left) + dfs(root.right)
+
+    return sum
+  }
+
+  return dfs(root)
+};
+
+console.log(tree)
+console.log(leafSum(tree))
