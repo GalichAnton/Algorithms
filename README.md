@@ -161,6 +161,7 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Same Tree - [LeetCode](https://leetcode.com/problems/same-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Same_Tree.js)
   - Subtree of Another Tree - [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Subtree_of_Another_Tree.js)
   - Convert Sorted Array to Binary Search Tree - [LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Convert_Sorted_Array_to_Binary_Search_Tree.js)
+  - Merge Two Binary Trees - [LeetCode](https://leetcode.com/problems/merge-two-binary-trees/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Merge_Two_Binary_Trees.js)
   </details>
 
 - Find path in graph - [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_path_in_graph.js)
@@ -236,6 +237,9 @@ LeetCode's Interview Course Data Structures and Algorithms
   <summary>Trees</summary>
 
   - Max Area of Island - [LeetCode](https://leetcode.com/problems/max-area-of-island/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Trees/Max_Area_of_Island.js)
+  - Populating Next Right Pointers in Each Node - [LeetCode](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Trees/Populating_Next_Right_Pointers_in_Each_Node.js)
+  - 01 Matrix - [LeetCode](https://leetcode.com/problems/01-matrix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Trees/01_Matrix.js)
+  - Rotting Oranges - [LeetCode](https://leetcode.com/problems/rotting-oranges/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Trees/Rotting_Oranges.js)
 
  
   </details>
