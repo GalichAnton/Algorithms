@@ -20,15 +20,26 @@ function factorial(n) {
   }
   return result
 }
+
+function fib(n, res = [0, 1, 1]) {
+  if (res[n]) {
+    console.log("map")
+      return res[n];
+  }
+  console.log('calculate')
+  res[n] = fib(n - 1, res) + fib(n - 2, res);
+  return res[n];
+}
+
+console.log(fib(10))
 //
 // const cashFactorial = cashFunction(factorial)
 //
-// cashFactorial(5)
-// cashFactorial(4)
-// cashFactorial(3)
-// cashFactorial(4)
-// cashFactorial(5)
-// cashFactorial(1)
+  cashFactorial(5)
+  cashFactorial(4)
+  cashFactorial(3)
+  cashFactorial(4)
+  cashFactorial(5)
 
 const memo = (cb) => {
   const map = new Map()
@@ -49,8 +60,8 @@ const memo = (cb) => {
 
 const memoFactorial = memo(factorial)
 
-console.log(memoFactorial(5))
-console.log(memoFactorial(4))
-console.log(memoFactorial(4))
-console.log(memoFactorial(4))
-console.log(memoFactorial(5))
+// console.log(memoFactorial(5))
+// console.log(memoFactorial(4))
+// console.log(memoFactorial(4))
+// console.log(memoFactorial(4))
+// console.log(memoFactorial(5))

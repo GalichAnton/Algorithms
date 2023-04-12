@@ -3,16 +3,18 @@
  * @param {string} t
  * @return {boolean}
  */
+
+// Написать функцию являются ли 2 строки анаграммами
+//const isAnagram = function(s, t) {
+//};
+//console.log(isAnagram('anna', 'nana'))
+
 var isAnagram = function(s, t) {
   const map = new Map()
   if(s.length !== t.length) return false
 
   for(const char of s) {
-    if(map.has(char)) {
-      map.set(char, map.get(char) + 1)
-    } else {
-      map.set(char, 1)
-    }
+    map.set(char, (map.get(char) || 0) + 1)
   }
 
   for(const char of t) {

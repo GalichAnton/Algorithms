@@ -1,8 +1,5 @@
 # Collection of problems on algorithms
 
-
-
-
 ### Directory Typical - Typical problems on algorithms
 
 - [Array problems](https://github.com/GalichAnton/Algorithms/tree/master/Typical/Arrays)
@@ -17,7 +14,6 @@
 
 ### Directory LeetCode - Tasks from LeetCode depending on the level of difficulty
 
-
 <details>
 <summary>
 LeetCode's Interview Course Data Structures and Algorithms 
@@ -31,48 +27,48 @@ LeetCode's Interview Course Data Structures and Algorithms
   - [Prefix sum](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Arrays_n_strings/Prefix_sum.js)
   - [Sliding windows](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Arrays_n_strings/Sliding_windows.js)
   - [Two pointers](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Arrays_n_strings/Two_pointers.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Hashing</summary>
 
   - [Checking for existance](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Hashing/Checking_for_existance.js)
   - [Counting](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Hashing/Counting.js)
   - [More examples](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Hashing/More_examples.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Linked lists</summary>
 
   - [Checking for existance](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Linked_lists/Fast_n_slow_pointers.js)
   - [Counting](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Linked_lists/Reverse.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Stacks and queues</summary>
 
   - [String problems](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Stacks_n_queues/String_problems.js)
   - [Queues](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Stacks_n_queues/Queues.js)
   - [Monotonic](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Stacks_n_queues/Monotonic.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Tree and graphs</summary>
 
   - [Binary trees DFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_tree_DFS.js)
   - [Binary trees BFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_tree_BFS.js)
   - [Binary search tree](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Tree_n_graphs/Binary_search_tree.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Binary_search</summary>
 
   - [Binary search](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Binary_search/Binary_search.js)
   - [Binary trees BFS](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/LeetCode_course_data_structures_alhoritms/Binary_search/Solution_spaces.js)
+
   </details>
 
 </details>
-
 
 <details>
 <summary>Easy</summary>
@@ -100,8 +96,9 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Single number - [LeetCode](https://leetcode.com/problems/single-number/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Single_number.js)
   - Roman to integer - [LeetCode](https://leetcode.com/problems/roman-to-integer/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Roman_to_integer.js)
   - Flood Fill - [LeetCode](https://leetcode.com/problems/flood-fill/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Flood_Fill.js)
+  - Reshape matrix - [LeetCode](https://leetcode.com/problems/reshape-the-matrix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Arrays_n_hashing/Reshape_matrix.js)
+
   </details>
-  
 - <details>
   <summary>Two pointers</summary>
 
@@ -111,17 +108,16 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Reverse string - [LeetCode](https://leetcode.com/problems/valid-palindrome-ii/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/Reverse_string.js)
   - Move Zeroes - [LeetCode](https://leetcode.com/problems/move-zeroes/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/Move_Zeroes.js)
   - Remove Duplicates from Sorted Array - [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Two_pointers/Remove_Duplicates_from_Sorted_Array.js)
+
   </details>
-  
 - <details>
   <summary>Sliding windows</summary>
 
   - Best time to buy - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Best_time_buy_stock.js)
   - Minimum Difference Between Highest And Lowest of K Scores - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Minimum_Difference_Between_Highest_And_Lowest_of_K_Scores.js)
   - Reverse string - [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Sliding_windows/Reverse_string.js)
-  
+
   </details>
-  
 - <details>
   <summary>Stack</summary>
 
@@ -130,8 +126,8 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Implement queue by stacks - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Implement_queue_by_stacks.js)
   - Minstack - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Minstack.js)
   - Implement Stack using Queues - [LeetCode](https://leetcode.com/problems/implement-stack-using-queues/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Stack/Implement_Stack_using_Queues.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Binary search</summary>
 
@@ -139,8 +135,8 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Arranging сoins - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Arranging_сoins.js)
   - Binary search - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Binary_search.js)
   - Valid Perfect Square - [LeetCode](https://leetcode.com/problems/valid-perfect-square/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Binary_search/Valid_Perfect_Square.js)
+
   </details>
-  
 - <details>
   <summary>Linked lists</summary>
 
@@ -148,8 +144,8 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Palindrome linked list - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Palindrome_linked_list.js)
   - Reverse linked list - [LeetCode](https://leetcode.com/problems/valid-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Reverse.js)
   - Remove Linked List Elements - [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Linked_lists/Remove_Linked_List_Elements.js)
+
   </details>
-  
 - <details>
   <summary>Trees</summary>
 
@@ -162,12 +158,11 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Subtree of Another Tree - [LeetCode](https://leetcode.com/problems/subtree-of-another-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Subtree_of_Another_Tree.js)
   - Convert Sorted Array to Binary Search Tree - [LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Convert_Sorted_Array_to_Binary_Search_Tree.js)
   - Merge Two Binary Trees - [LeetCode](https://leetcode.com/problems/merge-two-binary-trees/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Trees/Merge_Two_Binary_Trees.js)
-  </details>
 
+  </details>
 - Find path in graph - [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/easy/Find_path_in_graph.js)
 
 </details>
-
 
 <details>
 <summary>Medium</summary>
@@ -190,17 +185,17 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Encode and Decode TinyUR - [LeetCode](https://leetcode.com/problems/sort-colors/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Encode_and_Decode_TinyUR.js)
   - Permutations - [LeetCode](https://leetcode.com/problems/permutations/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Permutations.js)
   - Rotate array - [LeetCode](https://leetcode.com/problems/rotate-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Rotate_array.js)
+  - Maximum Subarray - [LeetCode](https://leetcode.com/problems/maximum-subarray/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Arrays_n_hashing/Maximum_Subarray.js)
 
   </details>
-
 - <details>
   <summary>Two pointers</summary>
 
   - Two sum sorted - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_pointers/Two_sum_sorted.js)
   - SumOf3 - [LeetCode](https://leetcode.com/problems/3sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_pointers/sum_of_3.js)
   - Container With Most Water - [LeetCode](https://leetcode.com/problems/container-with-most-water/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Two_pointers/Container_With_Most_Water.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Sliding windows</summary>
 
@@ -209,30 +204,30 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Minimum Number of Flips to Make the Binary String Alternating - [LeetCode](https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating.js)
   - Minimum Size Subarray Sum - [LeetCode](https://leetcode.com/problems/minimum-size-subarray-sum/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Minimum_Size_Subarray_Sum.js)
   - Find K Closest Elements - [LeetCode](https://leetcode.com/problems/find-k-closest-elements/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Sliding_windows/Find_K_Closest_Elements.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Stack</summary>
 
   - Evaluate Reverse Polish Notation - [LeetCode](https://leetcode.com/problems/merge-intervals/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Stack/Evaluate_Reverse_Polish_Notation.js)
   - Generate Parentheses - [LeetCode](https://leetcode.com/problems/generate-parentheses/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Stack/Generate_Parentheses.js)
-  </details>
 
+  </details>
 - <details>
   <summary>Binary search</summary>
 
   - Search in rotated array - [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Search_rotated_sorted_array.js)
   - Search a 2D Matrix - [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Search_a_2D_Matrix.js)
-  -  Find Minimum in Rotated Sorted Array - [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Find_Minimum_in_Rotated_Sorted_Array.js)
-  </details>
+  - Find Minimum in Rotated Sorted Array - [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Binary_search/Find_Minimum_in_Rotated_Sorted_Array.js)
 
+  </details>
 - <details>
   <summary>Linked lists</summary>
-  
-   - Reorder list - [LeetCode](https://leetcode.com/problems/reorder-list/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Linked_lists/Reorder_list.js)
-   - Remove Nth Node From End of List - [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Linked_lists/Remove_Nth_Node_From_End_of_List.js)
-  </details>
 
+  - Reorder list - [LeetCode](https://leetcode.com/problems/reorder-list/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Linked_lists/Reorder_list.js)
+  - Remove Nth Node From End of List - [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Linked_lists/Remove_Nth_Node_From_End_of_List.js)
+
+  </details>
 - <details>
   <summary>Trees</summary>
 
@@ -241,12 +236,9 @@ LeetCode's Interview Course Data Structures and Algorithms
   - 01 Matrix - [LeetCode](https://leetcode.com/problems/01-matrix/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Trees/01_Matrix.js)
   - Rotting Oranges - [LeetCode](https://leetcode.com/problems/rotting-oranges/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/medium/Trees/Rotting_Oranges.js)
 
- 
   </details>
 
-
 </details>
-
 
 <details>
 <summary>Hard</summary>
@@ -258,26 +250,20 @@ LeetCode's Interview Course Data Structures and Algorithms
   - Poor pigs - [LeetCode](https://leetcode.com/problems/poor-pigs/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/hard/Arrays_n_hashing/Poor_pigs.js)
 
   </details>
-
 - <details>
   <summary>Two pointers</summary>
 
   dsfsdf
-  </details>
 
+  </details>
 - <details>
   <summary>Sliding Widow</summary>
 
   - Minimum Window Substring - [LeetCode](https://leetcode.com/problems/minimum-window-substring/description/) - [Solution](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/hard/Sliding_windows/Minimum_Window_Substring.js)
 
- </details>
-
-
 </details>
 
-
-
-
+</details>
 
 <details>
 <summary>Code templates for most popular algorithms</summary>
@@ -291,9 +277,8 @@ LeetCode's Interview Course Data Structures and Algorithms
 - [Sliding window](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Sliding_window.js)
 - [Subarrays](https://github.com/GalichAnton/Algorithms/blob/master/LeetCode/Code_templates/Subarrays.js)
 
-
 </details>
 
 ---
 
-### (c) 2022 by [Anton Galich](https://github.com/GalichAnton)   
+### (c) 2022 by [Anton Galich](https://github.com/GalichAnton)
