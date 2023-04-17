@@ -41,3 +41,37 @@ fetchWithRetry(() => Promise.reject('OOPS!!!'), {
   }
 }).catch(console.error)
 
+function requestWithRetry(request, delay, maxAttempts) {
+  return new Promise((resolve, reject) => {
+    let attempts = 0;
+
+    function doRequest() {
+      attempts++;
+
+      request()
+        .then((result) => {
+          resolve(result);
+        })
+        .catch((error) => {
+          if (attempts < maxAttempts) {
+            setTimeout(doRequest, delay);
+          } else {
+            reject(error);
+          }
+        });
+    }
+
+    doRequest();
+  });
+}
+
+
+// Пример использования:
+requestWithRetry(() => fetch('https://api.example.com/data'), 3, 1000)
+  .then((response) => {
+    console.log(response);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
