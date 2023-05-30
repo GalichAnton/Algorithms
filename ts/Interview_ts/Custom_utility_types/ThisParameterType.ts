@@ -1,0 +1,1 @@
+type MyThisParameterType<T extends (this:any,...args:any[]) => any> = T extends (this:infer R,...args:any[]) => any ? R : unknown

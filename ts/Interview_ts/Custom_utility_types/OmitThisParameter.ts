@@ -1,0 +1,1 @@
+type MyOmitThisParameter<T extends Function> = T extends (this: any, ...args: any) => infer R ? () => R : never
