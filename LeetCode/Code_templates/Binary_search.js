@@ -19,7 +19,7 @@ let fn = (arr, target) => {
 }
 
 //Binary search: duplicate elements, left-most insertion point
-let fn = (arr, target) => {
+let fn2 = (arr, target) => {
   let left = 0;
   let right = arr.length;
   while (left < right) {
@@ -35,7 +35,7 @@ let fn = (arr, target) => {
 }
 
 //Binary search: duplicate elements, right-most insertion point
-let fn = (arr, target) => {
+let fn1 = (arr, target) => {
   let left = 0;
   let right = arr.length;
   while (left < right) {

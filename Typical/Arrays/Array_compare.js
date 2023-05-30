@@ -28,7 +28,7 @@ const arr22 = [1, 2];
 
 console.log(arr11 === arr22);
 
-const compareArr = (arr1, arr2) => {
+const compareArr1 = (arr1, arr2) => {
   return arr1.filter((item, i) => item === arr2[i]).length === arr2.length;
 };
 
