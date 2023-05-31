@@ -1,0 +1,1 @@
+type StringToTuple<T extends string> = T extends `${infer A}${infer B}` ? [A, ...StringToTuple<B>] : []

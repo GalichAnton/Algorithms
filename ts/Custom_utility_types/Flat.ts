@@ -1,0 +1,1 @@
+type Flat<T extends any[]> = T extends [infer K, ...infer R] ? (K extends any[] ? [...Flat<K>,...Flat<R>] : [K,...Flat<R>]) : T
