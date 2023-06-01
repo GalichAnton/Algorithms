@@ -3,22 +3,21 @@
 // For example, given strs = ["eat","tea","tan","ate","nat","bat"], return [["bat"],["nat","tan"],["ate","eat","tea"]].
 
 var groupAnagrams = function(strs) {
-  let groups = new Map();
-  for (const s of strs) {
-    let key = s.split('').sort().join('');
-    if (!groups.has(key)) {
-      groups.set(key, []);
-    }
-
-    groups.get(key).push(s);
+  const res = {}
+  
+  for (let s of strs) {
+      let charSum = 0
+      for(let i = 0; i < s.length; i++) {
+          charSum += s.charCodeAt(i)
+      }
+      if(res[charSum]) {
+          res[charSum].push(s)
+      } else {
+          res[charSum] = [s]
+      }
   }
 
-  let ans = [];
-  for (const group of groups.values()) {
-    ans.push(group);
-  }
-
-  return ans;
+  return Object.values(res)
 };
 
 console.log(groupAnagrams(["eat","tea","tan","ate","nat","bat"]))

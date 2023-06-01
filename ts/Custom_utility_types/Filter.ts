@@ -1,0 +1,5 @@
+type Filter<T extends any[], A> = T extends [infer F, ...infer R] 
+  ? [F] extends [A] 
+    ? [F,...Filter<R, A>] 
+    : [...Filter<R,A>] 
+  : []

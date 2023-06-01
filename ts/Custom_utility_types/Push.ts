@@ -1,0 +1,1 @@
+type Push<T extends any[], I> = T extends [...args: infer F] ? [...F, I] : never
