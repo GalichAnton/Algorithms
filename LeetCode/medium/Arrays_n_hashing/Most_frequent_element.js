@@ -9,33 +9,14 @@
 // Output: [1]
 
 const topKFrequent = (nums, k) => {
-  const map = new Map();
-  for (const num of nums) {
-    const count = (map.get(num) || 0) + 1;
+  const map = new Map()
 
-    map.set(num, count);
-  }
-  const bucket = new Array(nums.length + 1).fill()
-    .map(() => []);
-
-  for (const [ num, count ] of map.entries()) {
-    bucket[count].push(num);
+  for(let n of nums) {
+      map.set(n, (map.get(n) || 0) + 1)
   }
 
-  bucket.reverse();
-
-  const topK = []
-
-  for (const count of bucket) {
-    for (const num of count) {
-      const isAtCapacity = topK.length === k;
-      if (isAtCapacity) break;
-
-      topK.push(num);
-    }
-  }
-
-  return topK;
+  const sortedEntries = [...map.entries()].sort((a,b) =>  b[1] - a[1])
+  return sortedEntries.slice(0, k).map(entry => entry[0]);
 };
 
-console.log(topKFrequent([1,1,1,2,2,3], 2))
+console.log(topKFrequent([4,4,4,2,2,3,3,3,3], 2))
