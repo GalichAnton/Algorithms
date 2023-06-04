@@ -24,4 +24,4 @@ const longestConsecutive = function(nums) {
   return longest
 };
 
-console.log(longestConsecutive([0,3,7,2,5,8,4,6,0,1]))
+console.log(longestConsecutive([0,3,3,3,3,2,5,8,6,0,1]))
