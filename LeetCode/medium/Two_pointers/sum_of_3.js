@@ -30,34 +30,34 @@ const threeSum = function (nums) {
     return result
   }
 
-  nums = nums.sort((a, b) => a - b)
+  nums.sort((a,b) => a-b)
 
-  for (let i = 0; i < nums.length; i++) {
-    if (i > 0 && nums[i] === nums[i - 1]) {
-      continue;
-    }
+  for(let i = 0; i < nums.length; i++) {
+    let curNum = nums[i]
+    if (i > 0 && curNum === nums[i - 1]) continue;
+
 
     let l = i + 1
-    let r = nums.length - 1
+    let r = nums.length -1 
 
-
-    while (l < r) {
-      let sum = nums[i] + nums[l] + nums[r]
-
-      if (sum === 0) {
-        result.push([nums[i], nums[l], nums[r]])
-        l++
-        while (nums[l] === nums[l - 1] && l < r) {
+    while(l < r) {
+      let threeSum = curNum + nums[l] + nums[r]
+      if(threeSum > 0) {
+          r--
+      } else if(threeSum < 0) {
           l++
-        }
-      } else if (sum < 0) {
-        l++
-      } else if (sum > 0) {
-        r--
+      } else {
+          res.push([curNum, nums[l], nums[r]]);
+          l++;
+          r--;
+          while (nums[l] === nums[l - 1] && l < r) {
+              l++;
+          }
       }
     }
   }
-  return result
+
+  return res
 }
 
-console.log(threeSum([-1, 0, 1, 2, -1, -4]));
+console.log(threeSum([-1, 0, 8, 2, -1, -4], 9));
