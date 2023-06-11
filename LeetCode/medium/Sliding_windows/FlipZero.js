@@ -22,3 +22,4 @@ const flipZero = (s) => {
 }
 
 console.log(flipZero('11010011'))
+
