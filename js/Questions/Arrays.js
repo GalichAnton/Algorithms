@@ -1,22 +1,4 @@
 const a = [0]
-console.log(a.length)
-a[3] = 3
-console.log(a.length)
-for (let item of a) {
-  console.log(item)
-}
-a.map(item => {console.log(item)})
-a.forEach(item => {console.log(item)})
-console.log(Object.keys(a))
-delete a[3]
-console.log(a.length)
-a[2] = 2
-a.length = 1
-console.log(a[0],a[1],a[2])
-
-
-
-const a = [0]
 console.log(a.length) // 1 Since array contains one element
 a[3] = 3 // a = [0, empty, empty, 3]
 console.log(a.length) // 4 Since array contains four elements now(even though only 2 elements are defined)

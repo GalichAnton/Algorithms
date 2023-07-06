@@ -57,6 +57,3 @@ console.log(quickSort2(arr));
 
 
 
-
-
-

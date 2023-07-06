@@ -35,11 +35,11 @@ console.log(fib(10))
 //
 // const cashFactorial = cashFunction(factorial)
 //
-  cashFactorial(5)
-  cashFactorial(4)
-  cashFactorial(3)
-  cashFactorial(4)
-  cashFactorial(5)
+  // cashFactorial(5)
+  // cashFactorial(4)
+  // cashFactorial(3)
+  // cashFactorial(4)
+  // cashFactorial(5)
 
 const memo = (cb) => {
   const map = new Map()
@@ -51,12 +51,12 @@ const memo = (cb) => {
       return map.get(key)
     }
     console.log('calculate')
-    let res = cb.call(this, args)
+    let res = cb.apply(this, args)
     map.set(key, res)
     console.log(map)
     return res
   }
-}
+} 
 
 const memoFactorial = memo(factorial)
 
@@ -65,3 +65,18 @@ const memoFactorial = memo(factorial)
 // console.log(memoFactorial(4))
 // console.log(memoFactorial(4))
 // console.log(memoFactorial(5))
+
+function fib(n) {
+  let res = 0
+  let a = 0 
+  let b = 1
+
+  for(let i = 2; i <= n; i++) {
+    res = a + b
+    a = b
+    b = res
+  }
+  return res
+}
+
+console.log(fib(3))

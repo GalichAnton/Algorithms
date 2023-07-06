@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Пример веб-воркера</title>
+  </head>
+  <body>
+    <h1>Пример веб-воркера</h1>
+    <button id="startButton">Запустить вычисления</button>
+    <p id="result"></p>
+    <script>
+      // Создаем веб-воркер
+      const worker = new Worker('worker.js');
+      
+      // Обработчик клика на кнопке
+      document.getElementById('startButton').addEventListener('click', () => {
+        // Отправляем сообщение в веб-воркер
+        worker.postMessage('start');
+      });
+      
+      // Обработчик сообщений от веб-воркера
+      worker.onmessage = event => {
+        // Выводим результат вычислений
+        document.getElementById('result').textContent = `Результат: ${event.data}`;
+      };
+    </script>
+  </body>
+</html>

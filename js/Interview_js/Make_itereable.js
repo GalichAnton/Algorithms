@@ -8,6 +8,8 @@ const obj = {
   }
 };
 
+console.dir(obj[Symbol.iterator])
+
 
 Object.prototype.handle = "f";
 // for (let key of obj) {

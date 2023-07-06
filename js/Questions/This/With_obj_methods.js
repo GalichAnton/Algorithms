@@ -33,23 +33,22 @@ const obj = {
   }
 }
 
-console.log(obj.a())
-console.log(obj.b())
-console.log(obj.c())
-console.log(obj.d())
-console.log(obj.e())
-console.log(obj.f()())
-console.log(obj.g())
-console.log(obj.h()())
-console.log(obj.i()())
+console.log(obj.a()) // "bfe"
+console.log(obj.b()) // "bfe"
+console.log(obj.c()) // undefined
+console.log(obj.d()) // "bfe"
+console.log(obj.e()) // "bfe"
+console.log(obj.f()()) // undefined
+console.log(obj.g()) // undefined
+console.log(obj.h()()) // undefined
+console.log(obj.i()()) // "bfe" 
 
 
-// "bfe"
-// "bfe"
-// undefined
-// "bfe"
-// "bfe"
-// undefined
-// undefined
-// undefined
-// "bfe" 
+
+
+
+
+
+
+
+

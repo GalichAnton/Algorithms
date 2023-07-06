@@ -31,43 +31,60 @@ function fetchWithRetry(exec, options = {}) {
   }
 }
 
-fetchWithRetry(() => Promise.reject('OOPS!!!'), {
-  retry: (i) => {
-    console.log(i)
-    if (i < 5) {
-      return i * 1000;
-    }
-    return false
-  }
-}).catch(console.error)
+// fetchWithRetry(() => Promise.reject('OOPS!!!'), {
+//   retry: (i) => {
+//     console.log(i)
+//     if (i < 5) {
+//       return i * 1000;
+//     }
+//     return false
+//   }
+// }).catch(console.error)
 
-function requestWithRetry(request, delay, maxAttempts) {
+function executeWithRetry(promiseFn, maxRetries = 3, retryDelay = 1000) {
+  let retries = 0;
   return new Promise((resolve, reject) => {
-    let attempts = 0;
-
-    function doRequest() {
-      attempts++;
-
-      request()
-        .then((result) => {
-          resolve(result);
-        })
-        .catch((error) => {
-          if (attempts < maxAttempts) {
-            setTimeout(doRequest, delay);
-          } else {
-            reject(error);
-          }
-        });
+    const tryRequest = () => {
+      promiseFn().then(result => {
+        resolve(result);
+      }).catch(error => {
+        console.log('wait')
+        retries++;
+        if (retries >= maxRetries) {
+          reject(error);
+        } else {
+          setTimeout(tryRequest, retryDelay);
+        }
+      });
     }
-
-    doRequest();
+    tryRequest();
   });
 }
 
+function promiseWithRetry(promiseCb, maxRetry, delay) {
+  return new Promise((resolve, reject) => {
+    let retries = 0
+    const executor = () => {
+      promiseCb()
+        .then((result) => {
+          resolve(result)
+        })
+        .catch((err) => {
+          retries++
+          if(retries > maxRetry) {
+            reject(err)
+          } else {
+            setTimeout(executor, delay)
+          }
+        })
+    } 
+    executor()
+  })
+}
 
-// Пример использования:
-requestWithRetry(() => fetch('https://api.example.com/data'), 3, 1000)
+
+//Пример использования:
+promiseWithRetry(() => fetch('https://api.example.com/data'), 3, 2000)
   .then((response) => {
     console.log(response);
   })
@@ -75,3 +92,73 @@ requestWithRetry(() => fetch('https://api.example.com/data'), 3, 1000)
     console.error(error);
   });
 
+
+
+const promise1 = new Promise(function (resolve, reject) {
+  setTimeout(() => resolve("one"), 2000);
+});
+const promise2 = new Promise(function (resolve, reject) {
+  setTimeout(() => resolve("two"), 1000);
+});
+
+function promiseAll(promises) {
+  return new Promise((resolve,reject) => {
+    let resolveCount = 0
+    let results = []
+    promises.forEach((promise, i) => {
+      promise
+        .then((result) => {
+          results[i] = result
+          resolveCount++
+          if(resolveCount === promises.length) {
+            resolve(results)
+          }
+        })
+        .catch((err) => {
+          reject(err)
+        })
+    })
+  })
+}
+// promiseAll([promise1, promise2]).then((res) => console.log(res)).catch(console.log);
+
+
+function promiseAllSettled(promises) {
+  return new Promise((resolve, reject) => {
+    let count = 0
+    let results = []
+    promises.forEach((promise, i) => {
+      promise
+        .then((res) => {
+          results[i] = {value: res, status:'fullfield'}
+          count++
+          if(count === promises.length) {
+            resolve(results)
+          }
+        })
+        .catch((err) => {
+          results[i] = {reason: err, status:'rejected'}
+          count++
+          if(count === promises.length) {
+            reject(results)
+          }
+        })
+    })
+  })
+}
+
+//promiseAllSettled([promise1, promise2]).then((res) => console.log(res)).catch(console.log);
+
+function promiseRace(promises) {
+  return new Promise ((resolve, reject) => {
+    promises.forEach((promise) => {
+      promise
+        .then((res) => {
+          resolve(res)
+        })
+        .catch((err) => {
+          reject(err)
+        })
+    })
+  })
+}

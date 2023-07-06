@@ -17,10 +17,10 @@ const user = {
   address: { city: "SPB",  street: "Lenina" }
 };
 
-const user2 = deepClone(user);
-console.log(user2);
-user.name = "sdfdsfsdf"
-console.log(user);
+// const user2 = deepClone(user);
+// console.log(user2);
+// user.name = "sdfdsfsdf"
+// console.log(user);
 
 const obj = {
   a: 5,
@@ -30,7 +30,7 @@ const obj = {
   c: { d: [1,2,3],  e: 1 },
   set: new Set([1,2,3]),
   map : new Map([[1,2],['test','dfgd']]),
-  date: new Date(2023,04,28)
+  date: new Date('2023,04,28')
 };
 
 const deepClonePlus = (value) => {
@@ -65,4 +65,33 @@ const deepClonePlus = (value) => {
   return value
 
 };
-console.log(deepClonePlus(obj))
+//console.log(deepClonePlus(obj))
+
+function cloneObj(obj) {
+  if(typeof obj !== 'object' || obj === null) {
+    return obj
+  }
+
+  if(Array.isArray(obj)) {
+    console.log('here')
+    return obj.map(cloneObj)
+  }
+
+  const clonedObj = Odject.assign({}, obj)
+
+  for(let key of Object.keys(clonedObj)) {
+    if(typeof clonedObj[key] === 'object') {
+      clonedObj[key] = cloneObj(clonedObj[key])
+    }
+  }
+
+  return clonedObj
+}
+
+const arr1 = [7,85,5,6,'fgh']
+
+const arr2 = cloneObj(arr1);
+console.log(arr1);
+arr2[0] = "mama"
+console.log(arr2);
+console.log(arr1);
