@@ -1,0 +1,40 @@
+{
+  "name": "cs-in-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint:fix": "eslint ./src/**/*.ts --fix",
+    "cleanup": "rimraf ./build",
+    "build:dev": "npm run cleanup && tsc -p tsconfig.development.json",
+    "build:prod": "npm run cleanup && tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "Anton Galich",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.1.2",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  },
+  "jest": {
+    "transform": {
+      "\\.ts$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.ts$",
+    "collectCoverageFrom": [
+      "./src/**/*.ts"
+    ]
+  }
+}

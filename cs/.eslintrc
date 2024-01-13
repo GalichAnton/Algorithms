@@ -1,0 +1,32 @@
+{
+  "env": {
+    "shared-node-browser": true,
+    "es2020": true
+  },
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto",
+        "semi": false
+      }
+    ],
+    "no-restricted-syntax": "off",
+    "no-loop-func": "off",
+    "@typescript-eslint/no-loop-func": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.spec.ts"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}
