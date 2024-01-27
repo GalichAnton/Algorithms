@@ -1,250 +1,250 @@
-import { Optional } from '../../utils/common.types';
-import { DoublyLinkedList } from '../../homework-01';
+import { Optional } from '../../utils/common-types'
+import DoublyLinkedList from '../../Fundamental-data-structures/doubly-linked-list/doubly-linked-list'
 
 export default class DynamicArray<T = unknown> implements Iterable<T> {
-  #list: DoublyLinkedList<Optional<T>[]> = new DoublyLinkedList<Optional<T>[]>();
+  #list: DoublyLinkedList<Optional<T>[]> = new DoublyLinkedList<Optional<T>[]>()
 
-  #length: number = 0;
+  #length: number = 0
 
-  #chunkSize: number;
+  #chunkSize: number
 
   constructor(size: number) {
     if (size <= 0 || !Number.isInteger(size)) {
-      throw new Error('Invalid chunk size value provided');
+      throw new Error('Invalid chunk size value provided')
     }
 
-    this.#chunkSize = size;
+    this.#chunkSize = size
   }
 
   get length(): number {
-    return this.#length;
+    return this.#length
   }
 
   #addChunk(): Optional<T>[] {
-    const newChunk = Array<Optional<T>>(this.#chunkSize);
-    this.#list.push(newChunk);
-    return newChunk;
+    const newChunk = Array<Optional<T>>(this.#chunkSize)
+    this.#list.push(newChunk)
+    return newChunk
   }
 
   #getElementPosition(index: number): [number, Optional<T>[]] | null {
-    const iterator = this.#list.values();
-    const chunkElementIndex = index % this.#chunkSize;
-    let chunkCounter = Math.floor(index / this.#chunkSize);
-    let currentChunk = iterator.next().value;
+    const iterator = this.#list.values()
+    const chunkElementIndex = index % this.#chunkSize
+    let chunkCounter = Math.floor(index / this.#chunkSize)
+    let currentChunk = iterator.next().value
 
     while (chunkCounter > 0) {
-      currentChunk = iterator.next().value;
-      chunkCounter -= 1;
+      currentChunk = iterator.next().value
+      chunkCounter -= 1
     }
 
     if (!currentChunk) {
-      return null;
+      return null
     }
 
-    return [chunkElementIndex, currentChunk];
+    return [chunkElementIndex, currentChunk]
   }
 
   get(index: number): Optional<T> {
-    const elementPosition = this.#getElementPosition(index);
+    const elementPosition = this.#getElementPosition(index)
     if (elementPosition === null) {
-      return undefined;
+      return undefined
     }
 
-    const [lastElementIndex, lastChunk] = elementPosition;
+    const [lastElementIndex, lastChunk] = elementPosition
 
-    return lastChunk[lastElementIndex];
+    return lastChunk[lastElementIndex]
   }
 
   push(value: T): this {
-    const lastElementPosition = this.#getElementPosition(this.#length - 1);
+    const lastElementPosition = this.#getElementPosition(this.#length - 1)
     if (lastElementPosition !== null) {
-      const [lastElementIndex, lastChunk] = lastElementPosition;
+      const [lastElementIndex, lastChunk] = lastElementPosition
 
       if (lastElementIndex < this.#chunkSize - 1) {
-        lastChunk[lastElementIndex + 1] = value;
-        this.#length += 1;
+        lastChunk[lastElementIndex + 1] = value
+        this.#length += 1
 
-        return this;
+        return this
       }
     }
 
-    const lastChunk = this.#addChunk();
-    lastChunk[0] = value;
-    this.#length += 1;
+    const lastChunk = this.#addChunk()
+    lastChunk[0] = value
+    this.#length += 1
 
-    return this;
+    return this
   }
 
   pop(): Optional<T> {
-    const lastElementPosition = this.#getElementPosition(this.#length - 1);
+    const lastElementPosition = this.#getElementPosition(this.#length - 1)
     if (lastElementPosition === null) {
-      return undefined;
+      return undefined
     }
 
-    const [lastElementIndex, lastChunk] = lastElementPosition;
-    const lastElement = lastChunk[lastElementIndex];
-    lastChunk[lastElementIndex] = undefined;
-    this.#length -= 1;
+    const [lastElementIndex, lastChunk] = lastElementPosition
+    const lastElement = lastChunk[lastElementIndex]
+    lastChunk[lastElementIndex] = undefined
+    this.#length -= 1
 
     if (lastChunk[0] === undefined) {
-      this.#list.pop();
+      this.#list.pop()
     }
 
-    return lastElement;
+    return lastElement
   }
 
   shift(): Optional<T> {
-    const iterator = this.#list.values();
-    let currentChunk = iterator.next().value;
-    let firstElement: Optional<T>;
+    const iterator = this.#list.values()
+    let currentChunk = iterator.next().value
+    let firstElement: Optional<T>
 
     // Array has no elements at all
     if (!currentChunk) {
-      return firstElement;
+      return firstElement
     }
 
-    [firstElement] = currentChunk;
-    this.#length -= 1;
+    ;[firstElement] = currentChunk
+    this.#length -= 1
     // Array has the only element, removing empty chunk
     if (currentChunk[1] === undefined) {
-      this.#list.pop();
-      return firstElement;
+      this.#list.pop()
+      return firstElement
     }
 
-    let nextChunk = iterator.next().value;
+    let nextChunk = iterator.next().value
     while (currentChunk) {
       for (let index = 0; index < this.#chunkSize - 1; index += 1) {
-        currentChunk[index] = currentChunk[index + 1];
+        currentChunk[index] = currentChunk[index + 1]
       }
 
       // There is no next chunk, nothing to move, so removing the last one in the chunk
       if (!nextChunk) {
-        currentChunk[this.#chunkSize - 1] = undefined;
-        return firstElement;
+        currentChunk[this.#chunkSize - 1] = undefined
+        return firstElement
       }
 
-      [currentChunk[this.#chunkSize - 1]] = nextChunk;
+      ;[currentChunk[this.#chunkSize - 1]] = nextChunk
       // Next chunk has the only element, so removing chunk from the list
       if (nextChunk[1] === undefined) {
-        this.#list.pop();
-        return firstElement;
+        this.#list.pop()
+        return firstElement
       }
 
-      currentChunk = nextChunk;
-      nextChunk = iterator.next().value;
+      currentChunk = nextChunk
+      nextChunk = iterator.next().value
     }
 
-    return firstElement;
+    return firstElement
   }
 
   unshift(value: T): this {
-    const iterator = this.#list.reversedValues();
-    let currentChunk = iterator.next().value;
-    let prevChunk: ReturnType<typeof iterator.next>['value'];
+    const iterator = this.#list.reversedValues()
+    let currentChunk = iterator.next().value
+    let prevChunk: ReturnType<typeof iterator.next>['value']
 
     // Array has no elements at all
     if (!currentChunk) {
-      return this.push(value);
+      return this.push(value)
     }
 
     // Last chunk has no more space to move, creating the new one, moving last element from previous chunk
     if (currentChunk[this.#chunkSize - 1] !== undefined) {
-      prevChunk = this.#addChunk();
-      prevChunk[0] = currentChunk[this.#chunkSize - 1];
+      prevChunk = this.#addChunk()
+      prevChunk[0] = currentChunk[this.#chunkSize - 1]
     }
 
     while (currentChunk) {
       for (let index = this.#chunkSize - 1; index > 0; index -= 1) {
-        currentChunk[index] = currentChunk[index - 1];
+        currentChunk[index] = currentChunk[index - 1]
       }
 
-      prevChunk = currentChunk;
-      currentChunk = iterator.next().value;
+      prevChunk = currentChunk
+      currentChunk = iterator.next().value
 
       // Current chunk is not a first chunk of an array, moving edge value and keep going
       if (currentChunk) {
-        prevChunk[0] = currentChunk[this.#chunkSize - 1];
+        prevChunk[0] = currentChunk[this.#chunkSize - 1]
 
         // Otherwise putting new value on the first place of the first chunk
       } else {
-        prevChunk[0] = value;
+        prevChunk[0] = value
       }
     }
 
-    this.#length += 1;
+    this.#length += 1
 
-    return this;
+    return this
   }
 
   map<U>(cb: (element: T, index: number, array: this) => U): DynamicArray<U> {
-    const mappedArray = new DynamicArray<U>(this.#chunkSize);
+    const mappedArray = new DynamicArray<U>(this.#chunkSize)
 
-    let index = 0;
+    let index = 0
     for (const element of this.values()) {
-      mappedArray.push(cb(element, index, this));
-      index += 1;
+      mappedArray.push(cb(element, index, this))
+      index += 1
     }
 
-    return mappedArray;
+    return mappedArray
   }
 
   filter(cb: (element: T, index: number, array: this) => boolean): DynamicArray<T> {
-    const filteredArray = new DynamicArray<T>(this.#chunkSize);
+    const filteredArray = new DynamicArray<T>(this.#chunkSize)
 
-    let index = 0;
+    let index = 0
     for (const element of this.values()) {
       if (cb(element, index, this)) {
-        filteredArray.push(element);
+        filteredArray.push(element)
       }
-      index += 1;
+      index += 1
     }
 
-    return filteredArray;
+    return filteredArray
   }
 
   join(glue: string = ','): string {
-    let stringifiedArray = '';
+    let stringifiedArray = ''
 
     for (const chunk of this.#list.values()) {
-      let stringifiedChunk = '';
+      let stringifiedChunk = ''
 
       for (let index = 0; index < this.#chunkSize; index += 1) {
         if (index > 0 && chunk[index] !== undefined) {
-          stringifiedChunk += glue;
+          stringifiedChunk += glue
         }
 
         if (chunk[index] !== undefined) {
-          stringifiedChunk += chunk[index];
+          stringifiedChunk += chunk[index]
         }
       }
 
       if (stringifiedArray.length > 0) {
-        stringifiedArray += glue;
+        stringifiedArray += glue
       }
 
-      stringifiedArray += stringifiedChunk;
+      stringifiedArray += stringifiedChunk
     }
 
-    return stringifiedArray;
+    return stringifiedArray
   }
 
   toString(): string {
-    return this.join();
+    return this.join()
   }
 
   *values(): Generator<T> {
     for (const chunk of this.#list.values()) {
       for (let index = 0; index < this.#chunkSize; index += 1) {
-        const value = chunk[index];
+        const value = chunk[index]
 
         if (value !== undefined) {
-          yield value;
+          yield value
         }
       }
     }
   }
 
   [Symbol.iterator]() {
-    return this.values();
+    return this.values()
   }
 }
